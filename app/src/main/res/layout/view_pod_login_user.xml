@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kbz.hms.readerapp.LoginUserViewPod xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+<View
+    android:id="@+id/v_user_image_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"/>
+
+
+
+<ImageView
+    android:id="@+id/iv_user_image"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/dummy_user_image_girl"
+    android:layout_marginTop="@dimen/margin_xlarge"
+    android:layout_marginLeft="@dimen/margin_medium_2"/>
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        android:layout_toRightOf="@id/iv_user_image"
+        android:layout_marginLeft="@dimen/margin_medium_2"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="@dimen/margin_xxlarge"
+        android:textSize="@dimen/text_regular_3x"/>
+
+    <TextView
+        android:id="@+id/tv_user_gmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_gmail"
+        android:layout_toRightOf="@id/iv_user_image"
+        android:layout_below="@id/tv_user_name"
+        android:layout_marginLeft="@dimen/margin_medium_2"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:textSize="@dimen/text_regular_3x"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_below="@id/tv_user_gmail"
+        android:layout_toRightOf="@id/iv_user_image"
+        android:layout_marginLeft="@dimen/margin_xxlarge"
+        android:layout_marginTop="@dimen/margin_xxlarge"
+        android:textSize="@dimen/text_regular_2x"/>
+
+
+
+
+
+
+
+</com.kbz.hms.readerapp.LoginUserViewPod>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+   <FrameLayout
+       android:id="@+id/fl_newBook"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <RelativeLayout
+           android:id="@+id/rl_newBook"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+
+           <android.support.v7.widget.CardView
+               android:id="@+id/cv_newBook"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="@dimen/margin_card_medium_2"
+               android:layout_marginTop="@dimen/margin_card_medium_2"
+               android:elevation="@dimen/margin_small"
+               app:cardCornerRadius="@dimen/margin_small">
+
+               <ImageView
+                   android:id="@+id/iv_newBook"
+                   android:layout_width="80dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/book_image02"
+                   android:scaleType="centerCrop"/>
+
+           </android.support.v7.widget.CardView>
+
+
+           <ImageView
+               android:id="@+id/iv_new_send"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_send_black_24dp"
+               android:layout_toRightOf="@id/cv_newBook"
+               android:layout_marginTop="@dimen/margin_card_medium_2"
+               android:layout_marginLeft="210dp"/>
+
+
+           <RelativeLayout
+               android:id="@+id/rl_newBook2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="52dp"
+               android:background="#F5F2F2">
+
+               <TextView
+                   android:id="@+id/tv_newBook_title"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:ellipsize="end"
+                   android:maxLines="1"
+                   android:paddingLeft="114dp"
+                   android:paddingRight="@dimen/margin_medium_2"
+                   android:paddingTop="@dimen/margin_medium"
+                   android:text="@string/newBook_title"
+                   android:textSize="@dimen/text_regular" />
+
+               <TextView
+                   android:id="@+id/tv_new_desc"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/tv_newBook_title"
+                   android:layout_marginTop="@dimen/margin_medium"
+                   android:ellipsize="end"
+                   android:lineSpacingMultiplier="1.3"
+                   android:maxLines="4"
+                   android:paddingLeft="114dp"
+                   android:paddingRight="@dimen/margin_medium_2"
+                   android:paddingBottom="@dimen/margin_medium"
+                   android:text="@string/text_new"
+                   android:textSize="@dimen/text_small"/>
+
+
+
+           </RelativeLayout>
+
+
+           <TextView
+               android:id="@+id/tv_send"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/newBook_send"
+               android:textSize="@dimen/text_small"
+               android:layout_below="@id/rl_newBook2"
+               android:layout_marginLeft="@dimen/margin_small"
+               android:layout_marginTop="@dimen/margin_small"/>
+
+
+
+       </RelativeLayout>
+
+
+
+   </FrameLayout>
+
+
+
+
+
+</RelativeLayout>

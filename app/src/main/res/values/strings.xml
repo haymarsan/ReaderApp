@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Reader App</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_name">Hay Mar San</string>
+    <string name="user_gmail">haymarsan11@\ngmail.com</string>
+    <string name="appTitle"><u>မေဟာ္သဓာ</u></string>
+    <string name="text_popular"><u>လူၾကိဳက္မ်ားေသာ</u></string>
+    <string name="text_showAll"><u>အကုန္ျပ</u></string>
+    <string name="newBook_title"><u>သမိုင္း၀င္ေရွးေဟာင္း ျမသိန္းတန္ေစတီ</u></string>
+    <string name="newBook_send"><u>ဖတ္ရွုသူ : <b>43 ဦး</b> ေပးပို႕သူ : <b>18 ဦး</b> </u></string>
+    <string name="newBooks"><u>အသစ္ထြက္</u></string>
+    <string name="text_new">စစ္ကိုင္းတိုင္း စစ္ကုိင္းျမိဳ႕နယ္ မင္းကြန္းေဒသရွိ  သမိုင္း၀င္ေရွးေဟာင္း ျမသိန္းတန္ေစတီေတာ္ျကီးသည္ ျမန္မာ့ေျမမွ ကမၻာထိေအာင္ ဂုဏ္ထူးေဆာင္ ေစတီေတာ္ၾကီးျဖစ္သည္။ </string>
+</resources>
